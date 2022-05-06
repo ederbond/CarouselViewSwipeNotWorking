@@ -17,7 +17,6 @@
 
             <Grid RowDefinitions="Auto,*,Auto">
 
-                <ScrollView Grid.Row="1" VerticalOptions="FillAndExpand">
                     <StackLayout Grid.Row="1">
                         <Label Text="{Binding ContentText}"
                                TextColor="Black" 
@@ -25,7 +24,6 @@
                                HorizontalOptions="CenterAndExpand" 
                                VerticalOptions="FillAndExpand"/>
                     </StackLayout>
-                </ScrollView>
             </Grid>
         </Frame>
     </ContentView.Content>

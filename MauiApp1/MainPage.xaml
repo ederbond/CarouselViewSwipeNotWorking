@@ -5,7 +5,6 @@
              x:DataType="local:MainPageViewModel"
              x:Class="MauiApp1.MainPage">
 
-    <ScrollView>
         <Grid 
               RowDefinitions="Auto,*,Auto,Auto">
 
@@ -26,5 +25,4 @@
                            IndicatorColor="DarkGray"
                            SelectedIndicatorColor="{StaticResource Primary}" />
         </Grid>
-    </ScrollView>
 </ContentPage>
